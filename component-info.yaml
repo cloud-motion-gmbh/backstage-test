@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "poc"
+  annotations:
+    github.com/project-slug: cloud-motion-gmbh/backstagepoc # Change the value to your github repo which contains terraform code.
+    backstage.io/techdocs-ref: dir:.
+  title: 'POC Resource Group' # you can give any title
+  description: An example of automating self deployment of a resource group in Azure. # Change Description accordingly
+spec:
+  type: service
+  owner: user:Seyun1997
+  lifecycle: experimental
